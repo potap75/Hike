@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669618322C4B87DC00A60AC2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618312C4B87DC00A60AC2 /* CustomButtonView.swift */; };
 		66CDE3462C49C101008C17F1 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3452C49C101008C17F1 /* HikeApp.swift */; };
 		66CDE3482C49C101008C17F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3472C49C101008C17F1 /* ContentView.swift */; };
 		66CDE34A2C49C101008C17F1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3492C49C101008C17F1 /* Item.swift */; };
 		66CDE34C2C49C102008C17F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CDE34B2C49C102008C17F1 /* Assets.xcassets */; };
 		66CDE34F2C49C102008C17F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CDE34E2C49C102008C17F1 /* Preview Assets.xcassets */; };
+		66CDE3562C4A197E008C17F1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3552C4A197E008C17F1 /* CardView.swift */; };
+		66CDE3592C4A1DF1008C17F1 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3582C4A1DF1008C17F1 /* CustomBackgroundView.swift */; };
+		66CDE35C2C4A2170008C17F1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE35B2C4A2170008C17F1 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		669618312C4B87DC00A60AC2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		66CDE3422C49C101008C17F1 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDE3452C49C101008C17F1 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		66CDE3472C49C101008C17F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66CDE3492C49C101008C17F1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		66CDE34B2C49C102008C17F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CDE34E2C49C102008C17F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66CDE3552C4A197E008C17F1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		66CDE3582C4A1DF1008C17F1 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		66CDE35B2C4A2170008C17F1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,10 @@
 		66CDE3442C49C101008C17F1 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				66CDE35A2C4A213E008C17F1 /* Utility */,
 				66CDE3452C49C101008C17F1 /* HikeApp.swift */,
 				66CDE3472C49C101008C17F1 /* ContentView.swift */,
+				66CDE3572C4A1DBD008C17F1 /* Component */,
 				66CDE3492C49C101008C17F1 /* Item.swift */,
 				66CDE34B2C49C102008C17F1 /* Assets.xcassets */,
 				66CDE34D2C49C102008C17F1 /* Preview Content */,
@@ -68,6 +78,24 @@
 				66CDE34E2C49C102008C17F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66CDE3572C4A1DBD008C17F1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				66CDE3552C4A197E008C17F1 /* CardView.swift */,
+				66CDE3582C4A1DF1008C17F1 /* CustomBackgroundView.swift */,
+				669618312C4B87DC00A60AC2 /* CustomButtonView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		66CDE35A2C4A213E008C17F1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				66CDE35B2C4A2170008C17F1 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669618322C4B87DC00A60AC2 /* CustomButtonView.swift in Sources */,
+				66CDE3592C4A1DF1008C17F1 /* CustomBackgroundView.swift in Sources */,
 				66CDE3482C49C101008C17F1 /* ContentView.swift in Sources */,
 				66CDE34A2C49C101008C17F1 /* Item.swift in Sources */,
+				66CDE35C2C4A2170008C17F1 /* ColorExtension.swift in Sources */,
+				66CDE3562C4A197E008C17F1 /* CardView.swift in Sources */,
 				66CDE3462C49C101008C17F1 /* HikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
