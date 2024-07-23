@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		669618322C4B87DC00A60AC2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618312C4B87DC00A60AC2 /* CustomButtonView.swift */; };
+		669618342C4E068000A60AC2 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618332C4E068000A60AC2 /* GradientButtonStyle.swift */; };
+		669618362C4F68C800A60AC2 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618352C4F68C800A60AC2 /* CustomCircleView.swift */; };
+		669618382C4F708A00A60AC2 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618372C4F708A00A60AC2 /* MotionAnimationView.swift */; };
 		66CDE3462C49C101008C17F1 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3452C49C101008C17F1 /* HikeApp.swift */; };
 		66CDE3482C49C101008C17F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3472C49C101008C17F1 /* ContentView.swift */; };
 		66CDE34A2C49C101008C17F1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE3492C49C101008C17F1 /* Item.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		669618312C4B87DC00A60AC2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		669618332C4E068000A60AC2 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		669618352C4F68C800A60AC2 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		669618372C4F708A00A60AC2 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		66CDE3422C49C101008C17F1 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CDE3452C49C101008C17F1 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		66CDE3472C49C101008C17F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 				66CDE3552C4A197E008C17F1 /* CardView.swift */,
 				66CDE3582C4A1DF1008C17F1 /* CustomBackgroundView.swift */,
 				669618312C4B87DC00A60AC2 /* CustomButtonView.swift */,
+				669618352C4F68C800A60AC2 /* CustomCircleView.swift */,
+				669618372C4F708A00A60AC2 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				66CDE35B2C4A2170008C17F1 /* ColorExtension.swift */,
+				669618332C4E068000A60AC2 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -170,11 +179,14 @@
 			files = (
 				669618322C4B87DC00A60AC2 /* CustomButtonView.swift in Sources */,
 				66CDE3592C4A1DF1008C17F1 /* CustomBackgroundView.swift in Sources */,
+				669618362C4F68C800A60AC2 /* CustomCircleView.swift in Sources */,
 				66CDE3482C49C101008C17F1 /* ContentView.swift in Sources */,
 				66CDE34A2C49C101008C17F1 /* Item.swift in Sources */,
 				66CDE35C2C4A2170008C17F1 /* ColorExtension.swift in Sources */,
 				66CDE3562C4A197E008C17F1 /* CardView.swift in Sources */,
 				66CDE3462C49C101008C17F1 /* HikeApp.swift in Sources */,
+				669618342C4E068000A60AC2 /* GradientButtonStyle.swift in Sources */,
+				669618382C4F708A00A60AC2 /* MotionAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
